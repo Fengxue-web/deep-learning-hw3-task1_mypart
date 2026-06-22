@@ -1,0 +1,108 @@
+name: object_B_latentnerf
+description: ''
+tag: object_B_mug_20260613_latentnerf_sweep_p2_blue_full_handle_1000
+seed: 11
+use_timestamp: true
+timestamp: '@20260613-182321'
+exp_root_dir: outputs
+exp_dir: outputs/object_B_latentnerf
+trial_name: object_B_mug_20260613_latentnerf_sweep_p2_blue_full_handle_1000@20260613-182321
+trial_dir: outputs/object_B_latentnerf/object_B_mug_20260613_latentnerf_sweep_p2_blue_full_handle_1000@20260613-182321
+n_gpus: 1
+resume: null
+data_type: random-camera-datamodule
+data:
+  elevation_range:
+  - -10
+  - 45
+  batch_size: 1
+  camera_distance_range:
+  - 2.8
+  - 3.4
+  eval_camera_distance: 3.2
+  fovy_range:
+  - 35
+  - 55
+  eval_fovy_deg: 50.0
+system_type: latentnerf-system
+system:
+  geometry_type: implicit-volume
+  geometry:
+    n_feature_dims: 4
+    normal_type: null
+    density_bias: blob_dreamfusion
+    density_activation: trunc_exp
+    density_blob_scale: 5.0
+    density_blob_std: 0.2
+    pos_encoding_config:
+      otype: ProgressiveBandFrequency
+      n_frequencies: 6
+    mlp_network_config:
+      otype: VanillaMLP
+      n_neurons: 64
+      n_hidden_layers: 3
+  material_type: no-material
+  material:
+    n_output_dims: 4
+    color_activation: none
+  background_type: neural-environment-map-background
+  background:
+    n_output_dims: 4
+    color_activation: none
+  renderer_type: nerf-volume-renderer
+  renderer:
+    num_samples_per_ray: 512
+  prompt_processor_type: stable-diffusion-prompt-processor
+  prompt_processor:
+    pretrained_model_name_or_path: /root/autodl-tmp/hw3_task1_assets/third_party/huggingface_cache/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14
+    prompt: a small blue ceramic coffee mug with a large handle, full object, centered
+  guidance_type: stable-diffusion-guidance
+  guidance:
+    pretrained_model_name_or_path: /root/autodl-tmp/hw3_task1_assets/third_party/huggingface_cache/hub/models--runwayml--stable-diffusion-v1-5/snapshots/451f4fe16113bff5a5d2269ed5ad43b0592e9a14
+    guidance_scale: 100.0
+    weighting_strategy: sds
+    half_precision_weights: false
+  loggers:
+    wandb:
+      enable: false
+      project: threestudio
+      name: None
+  loss:
+    lambda_sds: 1.0
+    lambda_sparsity: 0.0005
+    lambda_opaque: 0.0
+    lambda_orient: 0.0
+  optimizer:
+    name: Adam
+    args:
+      lr: 0.01
+      betas:
+      - 0.9
+      - 0.99
+      eps: 1.0e-15
+  scheduler:
+    name: SequentialLR
+    interval: step
+    warmup_steps: 100
+    milestones:
+    - 100
+    schedulers:
+    - name: LinearLR
+      args:
+        start_factor: 0.1
+        end_factor: 1.0
+        total_iters: 100
+    - name: ExponentialLR
+      args:
+        gamma: 0.9974448421062369
+trainer:
+  max_steps: 1000
+  log_every_n_steps: 1
+  num_sanity_val_steps: 0
+  val_check_interval: 200
+  enable_progress_bar: true
+  precision: 32
+checkpoint:
+  save_last: true
+  save_top_k: -1
+  every_n_train_steps: 1000

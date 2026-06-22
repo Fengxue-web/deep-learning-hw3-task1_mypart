@@ -1,0 +1,67 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python and notebook cache files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Temporary local files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Local runtime caches that may be produced if scripts are run again
+.cache/
+wandb/
+lightning_logs/
+
+# Large raw inputs should be kept outside normal Git history.
+# Object A raw video is distributed by external Google Drive link.
+data/object_A_raw/
+video.mp4
+A1.mp4
+*.mov
+*.avi
+*.mkv
+
+# Archives and packaged handoff bundles
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Large pretrained model weights should not be copied into this GitHub package.
+weights/
+pretrained/
+pretrained_models/
+*.safetensors
+*.pth
+*.pt
+*.bin
+stable_zero123.ckpt
+
+# Important note:
+# Do not globally ignore .obj, .ply, .mtl, .png, .jpg, or small .mp4 files here.
+# The result_preview/ directory intentionally includes final 3D assets and visual evidence.
+
+# Keep final deliverables visible even if this folder is committed from inside a parent repo
+# that has broader ignore rules for generated 3D assets.
+!data/object_C_raw/*.jpg
+!data/object_C_raw/*.png
+!result_preview/**/*.ply
+!result_preview/**/*.obj
+!result_preview/**/*.mtl
+!result_preview/**/*.png
+!result_preview/**/*.jpg
+!result_preview/**/*.mp4
+!result_preview/object_B/**/checkpoints/
+!result_preview/object_B/**/checkpoints/*.ckpt

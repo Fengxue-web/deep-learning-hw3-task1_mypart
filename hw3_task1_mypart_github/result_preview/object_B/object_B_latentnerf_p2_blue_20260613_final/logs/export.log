@@ -1,0 +1,169 @@
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/utils/ops.py:45: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @custom_fwd(cast_inputs=torch.float32)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/utils/ops.py:52: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, g):  # pylint: disable=arguments-differ
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/utils/ops.py:62: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input_tensor, gt_grad):
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/utils/ops.py:69: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_scale):
+/root/miniconda3/envs/hw3_threestudio/lib/python3.10/site-packages/controlnet_aux/mediapipe_face/mediapipe_face_common.py:7: UserWarning: The module 'mediapipe' is not installed. The package will have limited functionality. Please install it using the command: pip install 'mediapipe'
+  warnings.warn(
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:142: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:147: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:165: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:185: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:195: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:207: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/deep_floyd_guidance.py:107: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/deep_floyd_guidance.py:112: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/deep_floyd_guidance.py:280: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/deep_floyd_guidance.py:335: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:115: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:120: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:134: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:144: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:156: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:141: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:160: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:170: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:480: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:533: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:153: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:158: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:172: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:182: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:198: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:560: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_unified_guidance.py:283: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_unified_guidance.py:312: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_unified_guidance.py:326: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_unified_guidance.py:748: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:222: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:252: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:402: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:421: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:431: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:141: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:169: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:180: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:201: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:144: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:149: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:172: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:183: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:194: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:204: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:350: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_unified_guidance.py:287: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_unified_guidance.py:316: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_unified_guidance.py:330: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+Global seed set to 11
+[32m[INFO] Loading Stable Diffusion ...[0m
+Loading pipeline components...:   0%|          | 0/4 [00:00<?, ?it/s]Loading pipeline components...:  50%|█████     | 2/4 [00:00<00:00, 19.98it/s]Loading pipeline components...: 100%|██████████| 4/4 [00:00<00:00, 10.90it/s]Loading pipeline components...: 100%|██████████| 4/4 [00:00<00:00, 11.69it/s]
+[32m[INFO] Loaded Stable Diffusion![0m
+[32m[INFO] GPU available: True (cuda), used: True[0m
+[32m[INFO] TPU available: False, using: 0 TPU cores[0m
+[32m[INFO] IPU available: False, using: 0 IPUs[0m
+[32m[INFO] HPU available: False, using: 0 HPUs[0m
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/launch.py:240: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  ckpt = torch.load(ckpt_path, map_location="cpu")
+[32m[INFO] You are using a CUDA device ('NVIDIA GeForce RTX 5090') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision[0m
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/data/uncond.py:400: UserWarning: Using torch.cross without specifying the dim arg is deprecated.
+Please either pass the dim explicitly or simply use torch.linalg.cross.
+The default value of dim will change to agree with that of linalg.cross in a future release. (Triggered internally at /pytorch/aten/src/ATen/native/Cross.cpp:63.)
+  right: Float[Tensor, "B 3"] = F.normalize(torch.cross(lookat, up), dim=-1)
+[32m[INFO] Restoring states from the checkpoint path at outputs/object_B_latentnerf/object_B_mug_20260613_latentnerf_sweep_p2_blue_full_handle_1000@20260613-182321/ckpts/last.ckpt[0m
+/root/miniconda3/envs/hw3_threestudio/lib/python3.10/site-packages/lightning_fabric/utilities/cloud_io.py:51: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  return torch.load(f, map_location=map_location)  # type: ignore[arg-type]
+[32m[INFO] LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0][0m
+[32m[INFO] Loaded model weights from the checkpoint at outputs/object_B_latentnerf/object_B_mug_20260613_latentnerf_sweep_p2_blue_full_handle_1000@20260613-182321/ckpts/last.ckpt[0m
+/root/miniconda3/envs/hw3_threestudio/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:430: PossibleUserWarning: The dataloader, predict_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 208 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Predicting: 0it [00:00, ?it/s]Predicting:   0%|          | 0/120 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/120 [00:00<?, ?it/s]/root/miniconda3/envs/hw3_threestudio/lib/python3.10/site-packages/pytorch_lightning/loops/prediction_loop.py:233: UserWarning: predict returned None if it was on purpose, ignore this warning...
+  self._warning_cache.warn("predict returned None if it was on purpose, ignore this warning...")
+Predicting DataLoader 0:   1%|          | 1/120 [00:00<00:00, 473.83it/s]Predicting DataLoader 0:   2%|▏         | 2/120 [00:00<00:00, 282.30it/s]Predicting DataLoader 0:   2%|▎         | 3/120 [00:00<00:00, 268.45it/s]Predicting DataLoader 0:   3%|▎         | 4/120 [00:00<00:00, 263.32it/s]Predicting DataLoader 0:   4%|▍         | 5/120 [00:00<00:00, 260.68it/s]Predicting DataLoader 0:   5%|▌         | 6/120 [00:00<00:00, 259.81it/s]Predicting DataLoader 0:   6%|▌         | 7/120 [00:00<00:00, 259.56it/s]Predicting DataLoader 0:   7%|▋         | 8/120 [00:00<00:00, 259.08it/s]Predicting DataLoader 0:   8%|▊         | 9/120 [00:00<00:00, 256.79it/s]Predicting DataLoader 0:   8%|▊         | 10/120 [00:00<00:00, 254.68it/s]Predicting DataLoader 0:   9%|▉         | 11/120 [00:00<00:00, 254.38it/s]Predicting DataLoader 0:  10%|█         | 12/120 [00:00<00:00, 254.04it/s]Predicting DataLoader 0:  11%|█         | 13/120 [00:00<00:00, 253.73it/s]Predicting DataLoader 0:  12%|█▏        | 14/120 [00:00<00:00, 253.65it/s]Predicting DataLoader 0:  12%|█▎        | 15/120 [00:00<00:00, 253.59it/s]Predicting DataLoader 0:  13%|█▎        | 16/120 [00:00<00:00, 253.79it/s]Predicting DataLoader 0:  14%|█▍        | 17/120 [00:00<00:00, 253.81it/s]Predicting DataLoader 0:  15%|█▌        | 18/120 [00:00<00:00, 253.66it/s]Predicting DataLoader 0:  16%|█▌        | 19/120 [00:00<00:00, 253.71it/s]Predicting DataLoader 0:  17%|█▋        | 20/120 [00:00<00:00, 253.73it/s]Predicting DataLoader 0:  18%|█▊        | 21/120 [00:00<00:00, 253.74it/s]Predicting DataLoader 0:  18%|█▊        | 22/120 [00:00<00:00, 253.77it/s]Predicting DataLoader 0:  19%|█▉        | 23/120 [00:00<00:00, 253.72it/s]Predicting DataLoader 0:  20%|██        | 24/120 [00:00<00:00, 253.90it/s]Predicting DataLoader 0:  21%|██        | 25/120 [00:00<00:00, 254.07it/s]Predicting DataLoader 0:  22%|██▏       | 26/120 [00:00<00:00, 254.24it/s]Predicting DataLoader 0:  22%|██▎       | 27/120 [00:00<00:00, 254.30it/s]Predicting DataLoader 0:  23%|██▎       | 28/120 [00:00<00:00, 254.37it/s]Predicting DataLoader 0:  24%|██▍       | 29/120 [00:00<00:00, 254.47it/s]Predicting DataLoader 0:  25%|██▌       | 30/120 [00:00<00:00, 254.67it/s]Predicting DataLoader 0:  26%|██▌       | 31/120 [00:00<00:00, 254.88it/s]Predicting DataLoader 0:  27%|██▋       | 32/120 [00:00<00:00, 255.08it/s]Predicting DataLoader 0:  28%|██▊       | 33/120 [00:00<00:00, 255.25it/s]Predicting DataLoader 0:  28%|██▊       | 34/120 [00:00<00:00, 255.41it/s]Predicting DataLoader 0:  29%|██▉       | 35/120 [00:00<00:00, 255.61it/s]Predicting DataLoader 0:  30%|███       | 36/120 [00:00<00:00, 255.69it/s]Predicting DataLoader 0:  31%|███       | 37/120 [00:00<00:00, 255.68it/s]Predicting DataLoader 0:  32%|███▏      | 38/120 [00:00<00:00, 255.78it/s]Predicting DataLoader 0:  32%|███▎      | 39/120 [00:00<00:00, 255.95it/s]Predicting DataLoader 0:  33%|███▎      | 40/120 [00:00<00:00, 256.11it/s]Predicting DataLoader 0:  34%|███▍      | 41/120 [00:00<00:00, 256.20it/s]Predicting DataLoader 0:  35%|███▌      | 42/120 [00:00<00:00, 256.35it/s]Predicting DataLoader 0:  36%|███▌      | 43/120 [00:00<00:00, 256.42it/s]Predicting DataLoader 0:  37%|███▋      | 44/120 [00:00<00:00, 256.50it/s]Predicting DataLoader 0:  38%|███▊      | 45/120 [00:00<00:00, 256.63it/s]Predicting DataLoader 0:  38%|███▊      | 46/120 [00:00<00:00, 256.72it/s]Predicting DataLoader 0:  39%|███▉      | 47/120 [00:00<00:00, 256.79it/s]Predicting DataLoader 0:  40%|████      | 48/120 [00:00<00:00, 256.97it/s]Predicting DataLoader 0:  41%|████      | 49/120 [00:00<00:00, 257.09it/s]Predicting DataLoader 0:  42%|████▏     | 50/120 [00:00<00:00, 257.29it/s]Predicting DataLoader 0:  42%|████▎     | 51/120 [00:00<00:00, 257.45it/s]Predicting DataLoader 0:  43%|████▎     | 52/120 [00:00<00:00, 257.72it/s]Predicting DataLoader 0:  44%|████▍     | 53/120 [00:00<00:00, 257.90it/s]Predicting DataLoader 0:  45%|████▌     | 54/120 [00:00<00:00, 258.07it/s]Predicting DataLoader 0:  46%|████▌     | 55/120 [00:00<00:00, 258.19it/s]Predicting DataLoader 0:  47%|████▋     | 56/120 [00:00<00:00, 258.29it/s]Predicting DataLoader 0:  48%|████▊     | 57/120 [00:00<00:00, 258.39it/s]Predicting DataLoader 0:  48%|████▊     | 58/120 [00:00<00:00, 258.51it/s]Predicting DataLoader 0:  49%|████▉     | 59/120 [00:00<00:00, 258.55it/s]Predicting DataLoader 0:  50%|█████     | 60/120 [00:00<00:00, 258.63it/s]Predicting DataLoader 0:  51%|█████     | 61/120 [00:00<00:00, 258.76it/s]Predicting DataLoader 0:  52%|█████▏    | 62/120 [00:00<00:00, 258.85it/s]Predicting DataLoader 0:  52%|█████▎    | 63/120 [00:00<00:00, 258.91it/s]Predicting DataLoader 0:  53%|█████▎    | 64/120 [00:00<00:00, 259.00it/s]Predicting DataLoader 0:  54%|█████▍    | 65/120 [00:00<00:00, 259.04it/s]Predicting DataLoader 0:  55%|█████▌    | 66/120 [00:00<00:00, 259.10it/s]Predicting DataLoader 0:  56%|█████▌    | 67/120 [00:00<00:00, 259.19it/s]Predicting DataLoader 0:  57%|█████▋    | 68/120 [00:00<00:00, 259.31it/s]Predicting DataLoader 0:  57%|█████▊    | 69/120 [00:00<00:00, 259.42it/s]Predicting DataLoader 0:  58%|█████▊    | 70/120 [00:00<00:00, 259.47it/s]Predicting DataLoader 0:  59%|█████▉    | 71/120 [00:00<00:00, 259.54it/s]Predicting DataLoader 0:  60%|██████    | 72/120 [00:00<00:00, 259.61it/s]Predicting DataLoader 0:  61%|██████    | 73/120 [00:00<00:00, 259.68it/s]Predicting DataLoader 0:  62%|██████▏   | 74/120 [00:00<00:00, 259.80it/s]Predicting DataLoader 0:  62%|██████▎   | 75/120 [00:00<00:00, 259.86it/s]Predicting DataLoader 0:  63%|██████▎   | 76/120 [00:00<00:00, 256.39it/s]Predicting DataLoader 0:  64%|██████▍   | 77/120 [00:00<00:00, 256.47it/s]Predicting DataLoader 0:  65%|██████▌   | 78/120 [00:00<00:00, 256.61it/s]Predicting DataLoader 0:  66%|██████▌   | 79/120 [00:00<00:00, 256.72it/s]Predicting DataLoader 0:  67%|██████▋   | 80/120 [00:00<00:00, 256.81it/s]Predicting DataLoader 0:  68%|██████▊   | 81/120 [00:00<00:00, 256.90it/s]Predicting DataLoader 0:  68%|██████▊   | 82/120 [00:00<00:00, 256.97it/s]Predicting DataLoader 0:  69%|██████▉   | 83/120 [00:00<00:00, 257.05it/s]Predicting DataLoader 0:  70%|███████   | 84/120 [00:00<00:00, 257.19it/s]Predicting DataLoader 0:  71%|███████   | 85/120 [00:00<00:00, 257.27it/s]Predicting DataLoader 0:  72%|███████▏  | 86/120 [00:00<00:00, 257.36it/s]Predicting DataLoader 0:  72%|███████▎  | 87/120 [00:00<00:00, 257.46it/s]Predicting DataLoader 0:  73%|███████▎  | 88/120 [00:00<00:00, 257.58it/s]Predicting DataLoader 0:  74%|███████▍  | 89/120 [00:00<00:00, 257.69it/s]Predicting DataLoader 0:  75%|███████▌  | 90/120 [00:00<00:00, 257.80it/s]Predicting DataLoader 0:  76%|███████▌  | 91/120 [00:00<00:00, 257.92it/s]Predicting DataLoader 0:  77%|███████▋  | 92/120 [00:00<00:00, 257.96it/s]Predicting DataLoader 0:  78%|███████▊  | 93/120 [00:00<00:00, 258.05it/s]Predicting DataLoader 0:  78%|███████▊  | 94/120 [00:00<00:00, 258.08it/s]Predicting DataLoader 0:  79%|███████▉  | 95/120 [00:00<00:00, 258.15it/s]Predicting DataLoader 0:  80%|████████  | 96/120 [00:00<00:00, 258.24it/s]Predicting DataLoader 0:  81%|████████  | 97/120 [00:00<00:00, 258.26it/s]Predicting DataLoader 0:  82%|████████▏ | 98/120 [00:00<00:00, 258.36it/s]Predicting DataLoader 0:  82%|████████▎ | 99/120 [00:00<00:00, 258.48it/s]Predicting DataLoader 0:  83%|████████▎ | 100/120 [00:00<00:00, 258.53it/s]Predicting DataLoader 0:  84%|████████▍ | 101/120 [00:00<00:00, 258.61it/s]Predicting DataLoader 0:  85%|████████▌ | 102/120 [00:00<00:00, 258.70it/s]Predicting DataLoader 0:  86%|████████▌ | 103/120 [00:00<00:00, 258.77it/s]Predicting DataLoader 0:  87%|████████▋ | 104/120 [00:00<00:00, 258.85it/s]Predicting DataLoader 0:  88%|████████▊ | 105/120 [00:00<00:00, 258.90it/s]Predicting DataLoader 0:  88%|████████▊ | 106/120 [00:00<00:00, 258.95it/s]Predicting DataLoader 0:  89%|████████▉ | 107/120 [00:00<00:00, 259.02it/s]Predicting DataLoader 0:  90%|█████████ | 108/120 [00:00<00:00, 259.08it/s]Predicting DataLoader 0:  91%|█████████ | 109/120 [00:00<00:00, 259.13it/s]Predicting DataLoader 0:  92%|█████████▏| 110/120 [00:00<00:00, 259.21it/s]Predicting DataLoader 0:  92%|█████████▎| 111/120 [00:00<00:00, 259.24it/s]Predicting DataLoader 0:  93%|█████████▎| 112/120 [00:00<00:00, 259.31it/s]Predicting DataLoader 0:  94%|█████████▍| 113/120 [00:00<00:00, 259.36it/s]Predicting DataLoader 0:  95%|█████████▌| 114/120 [00:00<00:00, 259.39it/s]Predicting DataLoader 0:  96%|█████████▌| 115/120 [00:00<00:00, 259.43it/s]Predicting DataLoader 0:  97%|█████████▋| 116/120 [00:00<00:00, 259.49it/s]Predicting DataLoader 0:  98%|█████████▊| 117/120 [00:00<00:00, 259.55it/s]Predicting DataLoader 0:  98%|█████████▊| 118/120 [00:00<00:00, 259.64it/s]Predicting DataLoader 0:  99%|█████████▉| 119/120 [00:00<00:00, 259.69it/s]Predicting DataLoader 0: 100%|██████████| 120/120 [00:00<00:00, 259.76it/s]/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/networks.py:241: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+[32m[INFO] Using xatlas to perform UV unwrapping, may take a while ...[0m
+[32m[INFO] Exporting textures ...[0m
+[33m[WARNING] Output color has >3 channels, treating the first 3 as RGB[0m
+[32m[INFO] Perform UV padding on texture maps to avoid seams, may take a while ...[0m
+Predicting DataLoader 0: 100%|██████████| 120/120 [01:25<00:00,  1.40it/s] [32m[INFO] Export assets saved to outputs/object_B_latentnerf/object_B_mug_20260613_latentnerf_sweep_p2_blue_full_handle_1000@20260613-182321/save[0m
+
+	Command being timed: "python launch.py --config outputs/object_B_latentnerf/object_B_mug_20260613_latentnerf_sweep_p2_blue_full_handle_1000@20260613-182321/configs/parsed.yaml --export --gpu 0 resume=outputs/object_B_latentnerf/object_B_mug_20260613_latentnerf_sweep_p2_blue_full_handle_1000@20260613-182321/ckpts/last.ckpt"
+	User time (seconds): 143.69
+	System time (seconds): 66.19
+	Percent of CPU this job got: 223%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:34.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4398696
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 1371208
+	Voluntary context switches: 659769
+	Involuntary context switches: 589
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 16464
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

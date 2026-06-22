@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/root/autodl-tmp/hw3_task1_assets/data/object_A_raw', model_path='/root/autodl-tmp/hw3_task1_assets/outputs/A_3dgs', images='images', depths='', resolution=-1, white_background=False, train_test_exp=False, data_device='cpu', eval=False)

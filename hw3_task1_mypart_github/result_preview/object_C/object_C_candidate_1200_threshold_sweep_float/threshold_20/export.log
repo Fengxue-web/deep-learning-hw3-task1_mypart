@@ -1,0 +1,139 @@
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/utils/ops.py:45: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  @custom_fwd(cast_inputs=torch.float32)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/utils/ops.py:52: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, g):  # pylint: disable=arguments-differ
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/utils/ops.py:62: FutureWarning: `torch.cuda.amp.custom_fwd(args...)` is deprecated. Please use `torch.amp.custom_fwd(args..., device_type='cuda')` instead.
+  def forward(ctx, input_tensor, gt_grad):
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/utils/ops.py:69: FutureWarning: `torch.cuda.amp.custom_bwd(args...)` is deprecated. Please use `torch.amp.custom_bwd(args..., device_type='cuda')` instead.
+  def backward(ctx, grad_scale):
+/root/miniconda3/envs/hw3_threestudio/lib/python3.10/site-packages/controlnet_aux/mediapipe_face/mediapipe_face_common.py:7: UserWarning: The module 'mediapipe' is not installed. The package will have limited functionality. Please install it using the command: pip install 'mediapipe'
+  warnings.warn(
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:142: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:147: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:165: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:185: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:195: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/controlnet_guidance.py:207: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/deep_floyd_guidance.py:107: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/deep_floyd_guidance.py:112: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/deep_floyd_guidance.py:280: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/deep_floyd_guidance.py:335: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:115: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:120: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:134: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:144: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/instructpix2pix_guidance.py:156: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:141: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:160: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:170: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:480: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_guidance.py:533: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:153: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:158: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:172: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:182: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:198: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_sdi_guidance.py:560: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_unified_guidance.py:283: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_unified_guidance.py:312: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_unified_guidance.py:326: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_unified_guidance.py:748: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:222: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:252: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:402: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:421: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_diffusion_vsd_guidance.py:431: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:141: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:146: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:169: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:180: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:191: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/stable_zero123_guidance.py:201: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:144: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:149: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:172: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:183: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:194: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:204: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_guidance.py:350: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_unified_guidance.py:287: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_unified_guidance.py:316: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/guidance/zero123_unified_guidance.py:330: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+Global seed set to 42
+[32m[INFO] GPU available: True (cuda), used: True[0m
+[32m[INFO] TPU available: False, using: 0 TPU cores[0m
+[32m[INFO] IPU available: False, using: 0 IPUs[0m
+[32m[INFO] HPU available: False, using: 0 HPUs[0m
+[32m[INFO] You are using a CUDA device ('NVIDIA GeForce RTX 5090') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision[0m
+/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/data/uncond.py:400: UserWarning: Using torch.cross without specifying the dim arg is deprecated.
+Please either pass the dim explicitly or simply use torch.linalg.cross.
+The default value of dim will change to agree with that of linalg.cross in a future release. (Triggered internally at /pytorch/aten/src/ATen/native/Cross.cpp:63.)
+  right: Float[Tensor, "B 3"] = F.normalize(torch.cross(lookat, up), dim=-1)
+[INFO] single image dataset: load image ./load/images/object_C_rgba.png torch.Size([1, 128, 128, 3])
+[32m[INFO] Restoring states from the checkpoint path at outputs/zero123-sai-pytorch-encoding/object_C_pytorch_1200_from400_sameconfig@20260612-135934/ckpts/last.ckpt[0m
+[32m[INFO] LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0][0m
+[32m[INFO] Loaded model weights from the checkpoint at outputs/zero123-sai-pytorch-encoding/object_C_pytorch_1200_from400_sameconfig@20260612-135934/ckpts/last.ckpt[0m
+/root/miniconda3/envs/hw3_threestudio/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:430: PossibleUserWarning: The dataloader, predict_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 208 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+Predicting: 0it [00:00, ?it/s]Predicting:   0%|          | 0/16 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/16 [00:00<?, ?it/s]/root/miniconda3/envs/hw3_threestudio/lib/python3.10/site-packages/pytorch_lightning/loops/prediction_loop.py:233: UserWarning: predict returned None if it was on purpose, ignore this warning...
+  self._warning_cache.warn("predict returned None if it was on purpose, ignore this warning...")
+Predicting DataLoader 0:   6%|▋         | 1/16 [00:00<00:00, 554.29it/s]Predicting DataLoader 0:  12%|█▎        | 2/16 [00:00<00:00, 374.11it/s]Predicting DataLoader 0:  19%|█▉        | 3/16 [00:00<00:00, 367.51it/s]Predicting DataLoader 0:  25%|██▌       | 4/16 [00:00<00:00, 365.72it/s]Predicting DataLoader 0:  31%|███▏      | 5/16 [00:00<00:00, 363.67it/s]Predicting DataLoader 0:  38%|███▊      | 6/16 [00:00<00:00, 363.36it/s]Predicting DataLoader 0:  44%|████▍     | 7/16 [00:00<00:00, 364.21it/s]Predicting DataLoader 0:  50%|█████     | 8/16 [00:00<00:00, 364.22it/s]Predicting DataLoader 0:  56%|█████▋    | 9/16 [00:00<00:00, 364.72it/s]Predicting DataLoader 0:  62%|██████▎   | 10/16 [00:00<00:00, 363.90it/s]Predicting DataLoader 0:  69%|██████▉   | 11/16 [00:00<00:00, 363.13it/s]Predicting DataLoader 0:  75%|███████▌  | 12/16 [00:00<00:00, 362.91it/s]Predicting DataLoader 0:  81%|████████▏ | 13/16 [00:00<00:00, 362.89it/s]Predicting DataLoader 0:  88%|████████▊ | 14/16 [00:00<00:00, 362.48it/s]Predicting DataLoader 0:  94%|█████████▍| 15/16 [00:00<00:00, 362.85it/s]Predicting DataLoader 0: 100%|██████████| 16/16 [00:00<00:00, 363.11it/s]/root/autodl-tmp/hw3_task1_assets/third_party/threestudio/threestudio/models/networks.py:241: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+[32m[INFO] Using xatlas to perform UV unwrapping, may take a while ...[0m
+[32m[INFO] Exporting textures ...[0m
+[32m[INFO] Perform UV padding on texture maps to avoid seams, may take a while ...[0m
+Predicting DataLoader 0: 100%|██████████| 16/16 [01:20<00:00,  5.02s/it] 
+[32m[INFO] Export assets saved to outputs/zero123-sai-pytorch-encoding/object_C_pytorch_1200_from400_sameconfig@20260612-135934/save[0m
